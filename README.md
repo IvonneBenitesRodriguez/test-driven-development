@@ -96,6 +96,8 @@ Feel free to check the [issues page](../../issues/).
 <!-- ACKNOWLEDGEMENTS --> 
 <!-- ACKNOWLEDGEMENTS -->
 
+I would like to thank Musa our reviewer for his kindness and patient.
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for this great opportunity.
