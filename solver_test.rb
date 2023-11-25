@@ -14,4 +14,8 @@ class TestSolver < Minitest::Test
   def test_factorial_negative
     assert_raises(RuntimeError) { @solver.factorial(-1) }
   end
+
+  def test_reverse
+    assert_equal 'olleh', @solver.reverse('hello')
+  end
 end
