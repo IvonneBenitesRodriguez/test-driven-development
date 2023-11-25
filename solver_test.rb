@@ -18,4 +18,11 @@ class TestSolver < Minitest::Test
   def test_reverse
     assert_equal 'olleh', @solver.reverse('hello')
   end
+
+  def test_fizzbuzz
+    assert_equal 'fizz', @solver.fizzbuzz(3)
+    assert_equal 'buzz', @solver.fizzbuzz(5)
+    assert_equal 'fizzbuzz', @solver.fizzbuzz(15)
+    assert_equal '7', @solver.fizzbuzz(7)
+  end
 end
