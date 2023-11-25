@@ -4,4 +4,8 @@ class Solver
 
     (1..number).inject(1, :*)
   end
+
+  def reverse(word)
+    word.reverse
+  end
 end
